@@ -8,5 +8,33 @@
 *.war
 *.ear
 
+# target directories #
+.gitignore~
+/DomainService/target/
+/DomainService/nbproject/private/
+/J2SE-Client/target/
+/J2SE-Client/nbproject/private/
+/MediaServerRestful/target/
+/MediaServerRestful/nbproject/private/
+/MediaserverApp-ear/target
+/MediaserverRemote-web/target
+/MediaserverRemote-web/nbproject/private
+/MediaserverApp-ejb/target
+/MediaserverApp-ejb/nbproject/private
+/MediaserverApp-web/target
+/MediaserverApp-web/nbproject/private
+/Client/target/
+/Client/nbproject/private/
+/MediaServerResteasy/target/
+/MediaServerResteasy/nbproject/private
+/MediaServerResteasy/nb-configuration.xml
+/Mediaserver-EJB/target/
+/RestfulUtil/target/
+/SimpleTaxonMockClient/target/
+/SimpleTaxonMockClient/nbproject/private
+/SimpleTaxonMockServer/target/
+/SimpleTaxonMockServer/nbproject/private
+/MediaServerApp-servlet/target/
+
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
