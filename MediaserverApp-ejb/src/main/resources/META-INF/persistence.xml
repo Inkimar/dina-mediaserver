@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.0" xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/persistence                  http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd">
+    <persistence-unit name="MysqlPU" transaction-type="JTA">
+        <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+        <jta-data-source>jdbc/__mediaPool</jta-data-source>
+        <!--<jta-data-source>jdbc/__mediaPostgresqlPool</jta-data-source>-->
+        <class>se.nrm.mediaserver.media3.domain.Image</class>
+        <class>se.nrm.mediaserver.media3.domain.Video</class>
+        <class>se.nrm.mediaserver.media3.domain.Sound</class>
+        <class>se.nrm.mediaserver.media3.domain.Media</class>
+        <class>se.nrm.mediaserver.media3.domain.MediaText</class>
+        <class>se.nrm.mediaserver.media3.domain.MetaData</class>
+        <class>se.nrm.mediaserver.media3.domain.Tag</class>
+        <class>se.nrm.mediaserver.media3.domain.Determination</class>
+        <class>se.nrm.mediaserver.media3.domain.Link</class>
+        <class>se.nrm.mediaserver.media3.domain.Attachment</class>
+        <class>se.nrm.mediaserver.media3.domain.AdminConfig</class>
+        <class>se.nrm.mediaserver.media3.domain.License</class>
+        <class>se.nrm.mediaserver.media3.domain.Lic</class>
+        <class>se.nrm.mediaserver.media3.domain.MediaLicence</class>
+        <class>se.nrm.mediaserver.media3.domain.Dummy</class>
+    </persistence-unit>
+</persistence>

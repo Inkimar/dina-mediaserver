@@ -1,0 +1,9 @@
+ <resource-ref ref="jdbc/__nrmMin"></resource-ref>
+ <jdbc-resource pool-name="__nrmMin" jndi-name="jdbc/__nrmMin"></jdbc-resource>
+    <jdbc-connection-pool driver-classname="" datasource-classname="com.mysql.jdbc.jdbc2.optional.MysqlConnectionPoolDataSource" res-type="javax.sql.ConnectionPoolDataSource" description="" name="__nrmMin">
+      <property name="DatabaseName" value="nrm_minimum"></property>
+      <property name="Server" value="localhost"></property>
+      <property name="Port" value="3306"></property>
+      <property name="User" value="root"></property>
+      <property name="Password" value="ingimar"></property>
+    </jdbc-connection-pool>

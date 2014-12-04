@@ -1,0 +1,14 @@
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
+/target/
+*.dat
+*.lck
+*.ctrl
+README_DO_NOT_TOUCH_FILES.txt
+derby.log
+/log/
+/seg0/
