@@ -50,10 +50,7 @@ Configuration of chosen RDBMS affects the following modules/files: <br/>
 
 
 
-### IDE
+### IDE used in development
 [Netbeans 8.x](https://netbeans.org/downloads/) 
 
-
- 	Föregående objekt	Nästa objekt	
-Ansluten till Microsoft Exchange
 
