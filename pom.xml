@@ -37,9 +37,10 @@
         <module>DomainService</module>
         <!--'MediaServerRestful' alternative, implemented in Jersey -->
         <module>MediaServerRestful</module>
-        <module>SimpleTaxonMockClient</module>
-        <module>SimpleTaxonMockServer</module>
+        <!-- <module>SimpleTaxonMockClient</module>-->
+        <!-- <module>SimpleTaxonMockServer</module>-->
         <!--<module>MediaserverRemote-web</module>-->
         <!--<module>Mediaserver-database-management</module>-->
-  </modules>
+        <!-- <module>DemoParentPom</module>-->
+    </modules>
 </project>
