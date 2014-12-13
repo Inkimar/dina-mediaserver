@@ -1,9 +1,9 @@
-dina-mediaserver
 ================
 DINA-WEB - MediaServer Module
 ============
-The Mediaserver had been developed with the products below ( with those explicit in  versions).<br/>
-Maven is used as the 'project management tool', Maven fetches all the dependencies that the Mediaserver relies on - each dependency is declared in the pom.xml-file.
+The Mediaserver has been developed with the products below ( with those explicit in  versions).<br/>
+Maven is used as the 'project management tool', Maven fetches all the dependencies that the Mediaserver relies on - each dependency is declared in the pom.xml-file.<br/>
+OBS: before you 'mvn clean package' , you have to create a database+user&password ( grant access )
 
 ## Requirements
 * Java SE 'Oracle Corporation': [JDK 1.7.0_51](http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html)
@@ -22,7 +22,7 @@ properly for GitHub.
 Clone the repository
 ```console
 git clone git@github.com:Inkimar/dina-mediaserver.git
-cd mediaserver
+cd dina-mediaserver
 ```
 
 ### Operating system (Linux / Ubuntu)
