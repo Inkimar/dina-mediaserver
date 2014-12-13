@@ -48,16 +48,18 @@ Configuration of chosen RDBMS affects the following modules/files: <br/>
 2.2 persistence.xml <br/>
 3 drop respective <database>-jdbc-jar into 'glassfish/.../lib-library' 
 
+### IDE used in development
+[Netbeans 8.x](https://netbeans.org/downloads/) 
+
 ### Images for demo purpose
-in the docs-directory, images.tar <br/>
-the default path to the image-directory is set in the path '/opt/data/mediaserver/demo' <br/>
-that image-path is configure in the ADMIN_CONFIG-table. <br/>
-extract the tar-file <br/>
+images.tar is in the docs-directory, <br/>
+the default path to the image-directory is set to '/opt/data/mediaserver/demo' <br/>
+that image-path is configured in the ADMIN_CONFIG-table. <br/>
+Extract the tar-file in '/opt/data/mediaserver/demo' <br/>
 Make sure to 'chmod' the directories and files ( read&write )
 
 
 
-### IDE used in development
-[Netbeans 8.x](https://netbeans.org/downloads/) 
+
 
 
